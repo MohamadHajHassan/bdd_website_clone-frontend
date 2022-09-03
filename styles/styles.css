@@ -10,3 +10,32 @@ img {
   height: 100%;
 }
 
+/* Nav Bar*/
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  height: 90px;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+.nav-item {
+  margin-right: 20px;
+  cursor: pointer;
+}
+.nav-links > li :last-child {
+  margin-right: 0;
+}
+.nav-item_dropdown {
+  text-decoration: none;
+}
+.nav-item_dropdown-menu {
+  display: none;
+}
+
+/* Utilities */
