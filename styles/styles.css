@@ -1,11 +1,9 @@
 /* CSS Reset */
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 img {
   height: 100%;
 }
@@ -53,31 +51,82 @@ img {
   color: #fff;
   position: relative;
 }
-
 .hero-content {
   padding: 10vh 10vh 37vh;
   width: 90%;
   opacity: 1;
   margin: 0 auto;
 }
-
 .hero-heading {
   text-align: center;
   font-size: 64px;
 }
 
-/* Utilities */
-.container {
-  padding: 0 12vh;
-  width: 100%;
+/* Foundations */
+.foundations {
+  display: flex;
+  justify-content: baseline;
+  flex-wrap: wrap;
+}
+.foundations-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  flex: 1 0 15vw;
+  text-align: center;
+  padding: 10px 30px 40px 30px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 15px;
+  background-color: #fff;
+}
+.foundations-item1:hover {
+  background-color: rgba(13, 119, 180, 0.2);
+}
+.foundations-item2:hover {
+  background-color: rgba(8, 92, 141, 0.2);
+}
+.foundations-item3:hover {
+  background-color: rgba(4, 64, 99, 0.2);
+}
+.foundations-item4:hover {
+  background-color: rgba(33, 216, 140, 0.2);
+}
+.foundations-item5:hover {
+  background-color: rgba(236, 93, 213, 0.2);
+}
+.foundations-item > img {
+  width: 100px;
+  height: 140px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+.foundations-item-title {
+  font-weight: bolder;
+  margin: 25px 0 15px;
+}
+.foundations-item-description {
+  font-size: large;
 }
 
+/* Utilities */
+.container {
+  padding: 0 2vw;
+  width: 100%;
+  background-color: rgb(235, 240, 245);
+}
+.subtitle {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  padding-top: 40px;
+  margin-bottom: 30px;
+}
 .btn {
   padding: 14px 20px;
   border: none;
   border-radius: 5px;
 }
-
 .btn-blue {
   background-color: #0078be;
   color: #fff;
