@@ -175,6 +175,32 @@ img {
   padding-bottom: 15px;
 }
 
+/* Download */
+.download {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: flex-end;
+  padding-top: 4vh;
+}
+.download p {
+  color: gray;
+  font-size: large;
+  font-weight: bold;
+}
+.download-items {
+  display: flex;
+  justify-content: end;
+}
+.download-items a {
+  width: 12vw;
+  margin: 4%;
+  margin-bottom: 10%;
+}
+.download-items a img {
+  width: 100%;
+}
+
 /* Utilities */
 .container {
   padding: 0;
