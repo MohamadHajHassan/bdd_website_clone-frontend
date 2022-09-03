@@ -108,6 +108,34 @@ img {
   font-size: large;
 }
 
+/* Explore */
+.explore {
+  background-image: url(../images/parallax-4.jpg);
+  background-size: cover;
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+}
+
+.explore > div {
+  color: #fff;
+  opacity: 1;
+}
+.explore-video {
+  margin: 40px auto 20px;
+  width: 50vw;
+  height: 60vh;
+}
+.explore-video > a > img {
+  width: 100%;
+}
+
 /* Utilities */
 .container {
   padding: 0 2vw;
