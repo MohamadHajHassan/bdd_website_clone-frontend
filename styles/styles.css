@@ -266,6 +266,64 @@ img {
   font-weight: bolder;
 }
 
+/* Trending */
+.trending-container {
+  background-image: url(/images/bg-icon-empty.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.trending-items {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: left;
+  align-items: flex-start;
+  width: 80%;
+}
+.trending-item {
+  display: flex;
+  flex-direction: column;
+  margin: 3vh 1vw;
+  flex: 1 0 25vw;
+  width: 20%;
+  text-align: left;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.trending-item a:link {
+  text-decoration: none;
+}
+.trending-item-image {
+  width: 100%;
+}
+.trending-item-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.trending-item-title {
+  color: #000;
+  font-size: large;
+  font-weight: bolder;
+  padding: 3vh;
+  text-decoration: none;
+}
+.trending-item-title:hover {
+  color: #0078be;
+}
+.trending-item-description {
+  color: gray;
+  font-size: small;
+  padding: 3vh;
+}
+.trending-btn {
+  margin-bottom: 40px;
+}
+
 /* Academy */
 .academy-container {
   background-image: url(/images/parallax-7.jpg);
